@@ -15,7 +15,6 @@ import torchvision
 from cnn.resnet import wide_resnet50_2, resnet18, resnet152
 
 from datasets.mvtec import MVTEC_CLASS_NAMES, MVTEC_CLASS_NAMES_1, MVTEC_CLASS_NAMES_2, MVTEC_CLASS_NAMES_3
-from datasets.mvtec_loco import MVTEC_LOCO_CLASS_NAMES
 from datasets.mpdd import MPDD_CLASS_NAMES, MPDD_CLASS_NAMES_1, MPDD_CLASS_NAMES_2, MPDD_CLASS_NAMES_3
 from datasets.visa import VisA_CLASS_NAMES, VisA_CLASS_NAMES_1, VisA_CLASS_NAMES_2, VisA_CLASS_NAMES_3, VisA_CLASS_NAMES_4, VisA_CLASS_NAMES_5, VisA_CLASS_NAMES_6
 from datasets.cifar10 import CIFAR10_CLASS_NAMES, CIFAR10_CLASS_NAMES_0, CIFAR10_CLASS_NAMES_1, CIFAR10_CLASS_NAMES_2, CIFAR10_CLASS_NAMES_3, CIFAR10_CLASS_NAMES_4, cifar_map_dict

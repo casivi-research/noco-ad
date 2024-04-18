@@ -14,8 +14,7 @@ pip install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.10.0 -f 
 pip install opencv-python scikit-learn scikit-image matplotlib albumentations einops kornia tqdm pandas
 ```
 2. For the Structured AD tasks, please run the train_mvtec.py. MVTec AD, MPDD and VisA datasets are evaluated based on this script.
-3. For the Semantic AD tasks, please run the train_cifar10.py (cifar10, cifar100 and cat_vs_dog datasets) and otrain_mnist.py (mnist and f-mnist datasets).
-
+3. For the Semantic AD tasks, please run the train_cifar10.py (cifar10, cifar100 and cat_vs_dog datasets) and train_mnist.py (mnist and f-mnist datasets).
 
 
 ## Abstract
